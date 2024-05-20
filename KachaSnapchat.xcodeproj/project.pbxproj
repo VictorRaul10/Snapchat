@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		578380ED2BFBCBBB0062DA24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578380EC2BFBCBBB0062DA24 /* AppDelegate.swift */; };
 		578380EF2BFBCBBB0062DA24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578380EE2BFBCBBB0062DA24 /* SceneDelegate.swift */; };
-		578380F12BFBCBBB0062DA24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578380F02BFBCBBB0062DA24 /* ViewController.swift */; };
+		578380F12BFBCBBB0062DA24 /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578380F02BFBCBBB0062DA24 /* iniciarSesionViewController.swift */; };
 		578380F42BFBCBBB0062DA24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578380F22BFBCBBB0062DA24 /* Main.storyboard */; };
 		578380F62BFBCBBE0062DA24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578380F52BFBCBBE0062DA24 /* Assets.xcassets */; };
 		578380F92BFBCBBE0062DA24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578380F72BFBCBBE0062DA24 /* LaunchScreen.storyboard */; };
+		578381012BFBCE1B0062DA24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 578381002BFBCE1B0062DA24 /* GoogleService-Info.plist */; };
+		86C458A274DDAC3B9791189C /* Pods_KachaSnapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A328412A3A35E59A9508DB4 /* Pods_KachaSnapchat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A328412A3A35E59A9508DB4 /* Pods_KachaSnapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KachaSnapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		578380E92BFBCBBB0062DA24 /* KachaSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KachaSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578380EC2BFBCBBB0062DA24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578380EE2BFBCBBB0062DA24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		578380F02BFBCBBB0062DA24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		578380F02BFBCBBB0062DA24 /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
 		578380F32BFBCBBB0062DA24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		578380F52BFBCBBE0062DA24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578380F82BFBCBBE0062DA24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578380FA2BFBCBBE0062DA24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578381002BFBCE1B0062DA24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B15FCEA0FE9AD3ECCB3C3FD8 /* Pods-KachaSnapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KachaSnapchat.release.xcconfig"; path = "Target Support Files/Pods-KachaSnapchat/Pods-KachaSnapchat.release.xcconfig"; sourceTree = "<group>"; };
+		B6200CBDC9A57234DF80EBB6 /* Pods-KachaSnapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KachaSnapchat.debug.xcconfig"; path = "Target Support Files/Pods-KachaSnapchat/Pods-KachaSnapchat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C458A274DDAC3B9791189C /* Pods_KachaSnapchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				578380EB2BFBCBBB0062DA24 /* KachaSnapchat */,
 				578380EA2BFBCBBB0062DA24 /* Products */,
+				6E4CE0F9743346D005367D73 /* Pods */,
+				7A8E4ED087F00BE16D156CC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +67,31 @@
 			children = (
 				578380EC2BFBCBBB0062DA24 /* AppDelegate.swift */,
 				578380EE2BFBCBBB0062DA24 /* SceneDelegate.swift */,
-				578380F02BFBCBBB0062DA24 /* ViewController.swift */,
+				578380F02BFBCBBB0062DA24 /* iniciarSesionViewController.swift */,
 				578380F22BFBCBBB0062DA24 /* Main.storyboard */,
 				578380F52BFBCBBE0062DA24 /* Assets.xcassets */,
 				578380F72BFBCBBE0062DA24 /* LaunchScreen.storyboard */,
 				578380FA2BFBCBBE0062DA24 /* Info.plist */,
+				578381002BFBCE1B0062DA24 /* GoogleService-Info.plist */,
 			);
 			path = KachaSnapchat;
+			sourceTree = "<group>";
+		};
+		6E4CE0F9743346D005367D73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6200CBDC9A57234DF80EBB6 /* Pods-KachaSnapchat.debug.xcconfig */,
+				B15FCEA0FE9AD3ECCB3C3FD8 /* Pods-KachaSnapchat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A8E4ED087F00BE16D156CC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A328412A3A35E59A9508DB4 /* Pods_KachaSnapchat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 578380FD2BFBCBBE0062DA24 /* Build configuration list for PBXNativeTarget "KachaSnapchat" */;
 			buildPhases = (
+				0EB9051DDD2F5D0E21FBBCE4 /* [CP] Check Pods Manifest.lock */,
 				578380E52BFBCBBB0062DA24 /* Sources */,
 				578380E62BFBCBBB0062DA24 /* Frameworks */,
 				578380E72BFBCBBB0062DA24 /* Resources */,
+				1029891EC0D28C16DC5ECFC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				578380F92BFBCBBE0062DA24 /* LaunchScreen.storyboard in Resources */,
+				578381012BFBCE1B0062DA24 /* GoogleService-Info.plist in Resources */,
 				578380F62BFBCBBE0062DA24 /* Assets.xcassets in Resources */,
 				578380F42BFBCBBB0062DA24 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +163,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EB9051DDD2F5D0E21FBBCE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KachaSnapchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1029891EC0D28C16DC5ECFC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KachaSnapchat/Pods-KachaSnapchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KachaSnapchat/Pods-KachaSnapchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KachaSnapchat/Pods-KachaSnapchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		578380E52BFBCBBB0062DA24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				578380F12BFBCBBB0062DA24 /* ViewController.swift in Sources */,
+				578380F12BFBCBBB0062DA24 /* iniciarSesionViewController.swift in Sources */,
 				578380ED2BFBCBBB0062DA24 /* AppDelegate.swift in Sources */,
 				578380EF2BFBCBBB0062DA24 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +354,7 @@
 		};
 		578380FE2BFBCBBE0062DA24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6200CBDC9A57234DF80EBB6 /* Pods-KachaSnapchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +382,7 @@
 		};
 		578380FF2BFBCBBE0062DA24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15FCEA0FE9AD3ECCB3C3FD8 /* Pods-KachaSnapchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
